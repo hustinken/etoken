@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.parallex.softtoken.MainActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/AppTheme"
+        tools:openDrawer="start">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_1"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/app_blue"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/add_identity"
+                    android:paddingEnd="50dp"
+                    android:paddingStart="0dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </androidx.appcompat.widget.Toolbar>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="80dp"
+                android:text="Enter Serial Number"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/information" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/serialNum"
+
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+
+
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/border_text"
+
+                android:gravity="start|center_vertical"
+                android:hint="Serial Number"
+                android:inputType="phone"
+                android:paddingHorizontal="20dp"
+                app:passwordToggleEnabled="true"
+
+                ></com.google.android.material.textfield.TextInputEditText>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+
+
+                android:text="Enter Activation Code "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/information" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/actCode"
+
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+
+
+                android:layout_marginHorizontal="20dp"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_text"
+
+                android:gravity="start|center_vertical"
+                android:hint="Activation Code"
+                android:inputType="phone"
+                android:paddingHorizontal="20dp"
+                app:passwordToggleEnabled="true"
+
+                ></com.google.android.material.textfield.TextInputEditText>
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="37dp"
+                android:layout_marginBottom="20dp"
+
+                android:background="@drawable/button_border2"
+                android:text="VERIFY"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/white"
+            android:theme="@style/AppTheme"
+            app:headerLayout="@layout/nav_header"
+            app:itemIconTint="#1F007D"
+            app:itemTextColor="#1F007D"
+            app:menu="@menu/menu"/>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</RelativeLayout>

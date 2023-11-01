@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:theme="@style/Theme.MaterialComponents.Light"
+    tools:context="com.parallex.softtoken.Authentication.ChangePin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/app_blue"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Change PIN"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/information" />
+        <TextView
+            android:id="@+id/prev_pin_label"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Old PIN"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:drawableStartCompat="@drawable/information" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/black"
+            app:boxCornerRadiusBottomEnd="8sp"
+            app:boxCornerRadiusBottomStart="8sp"
+            app:boxCornerRadiusTopEnd="8sp"
+            app:boxCornerRadiusTopStart="8sp"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/prev_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_text"
+                android:hint="@string/new_pin"
+                android:inputType="numberPassword"
+                app:passwordToggleEnabled="true"
+                android:maxLength="4"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/change_pin_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/new_pin_label"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/new_pin"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:drawableStartCompat="@drawable/information" />
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/black"
+                app:boxCornerRadiusBottomEnd="8sp"
+                app:boxCornerRadiusBottomStart="8sp"
+                app:boxCornerRadiusTopEnd="8sp"
+                app:boxCornerRadiusTopStart="8sp"
+                app:hintEnabled="false"
+                app:passwordToggleEnabled="true">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/new_pin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_text"
+                    android:hint="@string/new_pin"
+                    android:inputType="numberPassword"
+                    app:passwordToggleEnabled="true"
+                    android:maxLength="4"
+                    android:textSize="15sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/confirm_pin_label"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/confirm_pin"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:drawableStartCompat="@drawable/information" />
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/black"
+                app:boxCornerRadiusBottomEnd="8sp"
+                app:boxCornerRadiusBottomStart="8sp"
+                app:boxCornerRadiusTopEnd="8sp"
+                app:boxCornerRadiusTopStart="8sp"
+                app:hintEnabled="false"
+                app:passwordToggleEnabled="true">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/confirm_pin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_text"
+                    android:hint="@string/confirm_pin"
+                    android:inputType="numberPassword"
+                    android:maxLength="4"
+                    android:textSize="15sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/validate_btn"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="onProceedButtonClicked"
+                android:background="@drawable/button_border2"
+                android:text="@string/confirm"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_blue</item>
+        <item name="colorPrimaryVariant">@color/pant_one_432c</item>
+        <item name="colorOnPrimary">@color/pant_one_432c</item>
+        <item name="android:windowBackground">@color/pant_one_432c</item>
+        <item name="android:textSize">18sp</item>
+        <!--item name="android:statusBarColor" tools:targetApi="l">#FFFFFF</item-->
+        <!--item name="android:windowLightStatusBar" tools:targetApi="m">true</item-->
+    </style>
+
+    <style name="ProgressStyle">
+        <item name="colorAccent">@color/pant_one_7408c</item>
+    </style>
+
+    <style name="SpinnerStyle">
+        <item name="android:textColor">@color/app_text_grey</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:dropDownListViewStyle">@layout/support_simple_spinner_dropdown_item</item>
+    </style>
+
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#FF9D21</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+    <style name="MyActionBarTitleText"
+        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+
+    <style name="RadioButtonStyle">
+        <item name="colorControlActivated">@color/app_blue</item>
+        <item name="colorControlNormal">@color/app_text_grey</item>
+    </style>
+
+    <style name="listSpacingTheme">
+        <item name="android:listPreferredItemPaddingStart">5dp</item>
+        <item name="android:paddingTop">0dp</item>
+    </style>
+
+</resources>

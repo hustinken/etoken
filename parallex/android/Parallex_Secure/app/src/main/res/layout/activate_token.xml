@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:theme="@style/Theme.MaterialComponents.Light"
+    tools:context="com.parallex.softtoken.WelcomeActivity.SelectionMenu">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/app_blue"
+        android:gravity="center"
+        android:theme="@style/ThemeOverlay.AppCompat.Light">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/customer_type"
+            android:paddingEnd="50dp"
+            android:paddingStart="0dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/activated_image" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="Activate your token"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:foregroundGravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/active_token_text"
+            android:textColor="@color/app_text_grey"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/button_border2"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/activate_token"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:text="OR"
+            android:textStyle="bold"
+            android:textColor="#757575"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginHorizontal="20dp"
+            android:text="RESEND SMS"
+            android:textColor="@color/app_blue"
+            android:textSize="14sp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="2dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+

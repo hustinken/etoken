@@ -1,0 +1,442 @@
+[
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_information.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\information.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\font_aclonica.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\font\\aclonica.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\font_bad_script.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\font\\bad_script.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_button_border2.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable-v24\\button_border2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_indicator_right_icon.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\indicator_right_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_border_text.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\border_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_serial_icon.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\serial_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_app_icon_background.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\drawable\\app_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_classic_transaction.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\classic_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxhdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_app_icon.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-hdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_establish_pin.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\establish_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_activation_code_icon.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\activation_code_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_app_icon_foreground.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxxhdpi\\app_icon_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxxhdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_settings_icon.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\settings_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_fingerprint.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\fingerprint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_registration_code.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\registration_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_app_icon_foreground.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-hdpi\\app_icon_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_transaction_item.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\transaction_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_online_activation.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\online_activation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_border.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\custom_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xhdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_transaction.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_version.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\version.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\menu_menu.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\font_roboto_mono.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\font\\roboto_mono.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_background.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\splash_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_selection_menu.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\selection_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\font_arbutus.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\font\\arbutus.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\menu_tool_menu.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\menu\\tool_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_control_background.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\control_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_radio_selection.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\radio_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\anim_buttom_animation.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\anim\\buttom_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable-v24\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\font_roboto_medium.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\font\\roboto_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_enter_password_activity.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\enter_password_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\font_roboto.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\font\\roboto.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_splash_activity.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\splash_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_button.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\custom_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_fingerprint_activity.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\fingerprint_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_progress_style.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\custom_progress_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_back_btn_white.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\back_btn_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_settings.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_token_welcome.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable-v24\\token_welcome.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_custom_square_background.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable-v24\\custom_square_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_progress_dialog.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_app_icon.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-mdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_edit_text.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\dialog_edit_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_app_icon_foreground.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xhdpi\\app_icon_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_delete.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_trasparaent_button.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\trasparaent_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_parallex_logo.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\ic_parallex_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_1.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\background_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_security_code.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\security_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-hdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_background.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\custom_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_register_customer.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\register_customer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_transaction_details_row.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\transaction_details_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_splash_background.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable-v24\\splash_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_registration_image.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\registration_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_splash_logo.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable-v24\\splash_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_activate_token.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\activate_token.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\anim_top_animation.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\anim\\top_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-anydpi-v26\\app_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxxhdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_entrust.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\entrust.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_securitry_code_background.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\securitry_code_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\font_arbutus_slab.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\font\\arbutus_slab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\font_archivo_black.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\font\\archivo_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\font_assistant_extralight.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\font\\assistant_extralight.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_app_icon_foreground.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-mdpi\\app_icon_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_change_pin.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\change_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-mdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_app_icon_foreground.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxhdpi\\app_icon_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_create_pin.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\create_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\font_asul.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\font\\asul.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_border.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\button_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_horizontal_line.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\horizontal_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_activated_image.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\activated_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_verify.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\verify.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxhdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_copy.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\copy.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_providus_logo.png.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\ic_providus_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_settings_activity.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\settings_activity.xml"
+    }
+]

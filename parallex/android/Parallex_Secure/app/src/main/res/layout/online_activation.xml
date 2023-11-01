@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/app_blue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+    <LinearLayout
+        android:id="@+id/change_pin_layout"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="56dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/background_1"
+        android:orientation="vertical">
+
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></LinearLayout>
+
+
+        <TextView
+            android:id="@+id/address_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/prompt_address"
+            android:textStyle="bold" />
+    
+    <EditText android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:inputType="textUri"
+        android:background="@color/white"
+        android:layout_below="@+id/address_label"
+        android:enabled="false"/>
+
+        <TextView
+            android:id="@+id/serial_num_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/prompt_serialNumber"
+            android:textStyle="bold" />
+    
+    <EditText android:layout_height="wrap_content"
+        android:id="@+id/serialNum"
+        android:maxLength="10"
+        android:layout_width="fill_parent"
+        android:inputType="number"
+        android:background="@color/white"
+        android:layout_below="@+id/serial_num_label"
+        android:enabled="false"/>
+    
+    <View android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="?android:attr/dividerVertical"
+        android:layout_above="@+id/buttons"/>
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/buttons"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            style="?android:attr/buttonBarStyle">
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/error_red"
+                android:fontFamily="@font/roboto_medium"
+                android:text="CANCEL"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="40dp"
+
+                android:layout_marginBottom="20dp"
+                android:background="@color/app_blue"
+                android:fontFamily="@font/roboto_medium"
+                android:text="OK"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

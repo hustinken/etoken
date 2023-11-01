@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F6BE00</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="pant_one_7408c">#F6BE00</color>
+    <color name="pant_one_432c">#333F48</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="brown_background">#FFAF9980</color>
+    <color name="app_light_blue">#FF3E3DCE</color>
+    <color name="app_light_blue2">#FFD9DDF2</color>
+    <color name="app_blue">#FF1F007D</color>
+    <color name="app_text_grey">#FF757575</color>
+    <color name="text_border_grey">#8E8E8E</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="radio_selection">#ECF2FE</color>
+    <color name="semi_black">#FF333333</color>
+    <color name="deep_blue">#001042</color>
+    <color name="text_color">#FF4F4F4F</color>
+    <color name="success_green">#FF36B679</color>
+    <color name="carousel_inactive_grey">#FFE0E0E0</color>
+    <color name="edittext_background">#FFFBFBFB</color>
+    <color name="bottom_bar_inactive">#828282</color>
+    <color name="unavailable_screen_background">#E5E5E5</color>
+    <color name="light_green">#FFECFBED</color>
+    <color name="light_red">#FFF7F7</color>
+    <color name="white_smoke">#F2F2F2</color>
+    <color name="light_purple">#F4F5FF</color>
+    <color name="main_screen_backstage_color">#FFFAFAFA</color>
+    <color name="line_background">#FFF2F2F2</color>
+    <color name="line_background2">#E0E0E0</color>
+    <color name="error_red">#ED5454</color>
+    <color name="faint_grey">#FF828282</color>
+    <color name="dark_purple">#FF8358AB</color>
+    <color name="history_background_color">#FAFAFA</color>
+</resources>

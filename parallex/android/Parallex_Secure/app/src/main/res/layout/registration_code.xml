@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.parallex.softtoken.Activation.RegistrationCode">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1"
+    >
+
+
+</LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/reg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:elevation="6dp"
+            app:cardBackgroundColor="@color/app_light_blue2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+
+                <TextView
+                    android:id="@+id/regCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/app_light_blue2"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:text="@string/default_security_code"
+                    android:textColor="@color/white"
+                    android:textSize="40sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/powered_by_label"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:gravity="right">-->
+
+<!--        &lt;!&ndash;TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Powered By"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="15sp" /&ndash;&gt;-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginRight="5dp"-->
+<!--            android:fontFamily="@font/archivo_black"-->
+<!--            android:text="@string/powered_by"-->
+<!--            android:textColor="@color/pant_one_7408c"-->
+<!--            android:textSize="25sp" />-->
+<!--    </LinearLayout>-->
+
+
+    <TextView
+        android:id="@+id/reg_code_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_layout"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="@string/intro_regCode"
+        android:textAlignment="center"
+        android:textColor="@color/app_text_grey"
+        android:textSize="17sp"
+        app:lineHeight="30dp" />
+    <Button
+        android:id="@+id/copyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_border2"
+        android:text="COPY CODE"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_blue"
+        app:menu="@menu/tool_menu"
+
+        app:title="Registration Code" />
+</RelativeLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.parallex.softtoken.Settings.SettingsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_blue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:titleTextColor="@color/white"
+        app:title="Settings" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textColor="@color/app_blue"-->
+<!--            android:paddingLeft="20dp"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:text="PIN"/>-->
+        <View
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="0.1dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:clickable="true"
+                android:id="@+id/pin_lock_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="start|center"
+                    android:paddingLeft="20dp"
+                    android:text="PIN Lock"
+                    android:textAllCaps="false"
+                    android:textColor="@color/app_blue"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/roboto"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="50dp"
+                    android:text="Lock the app and require PIN input after idle timeout"
+                    android:textColor="@color/app_text_grey" />
+            </LinearLayout>
+            <CheckBox
+                android:id="@+id/pin_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:clickable="false"
+                android:buttonTint="@color/app_blue"
+                android:paddingEnd="20dp"
+                android:paddingStart="0dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/faint_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="0.1dp"/>
+
+        <Button
+            android:id="@+id/change_pin"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="start|center"
+            android:onClick="onChangePinBtnClicked"
+            android:paddingLeft="20dp"
+            android:text="Change PIN"
+            android:textAllCaps="false"
+            android:textColor="@color/app_blue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/roboto"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="update your account's pin"
+            android:textColor="@color/app_text_grey" />
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/faint_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="0.1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingLeft="20dp"
+            android:text="Auto-Lock"
+            android:textColor="@color/app_blue"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/timer_spinner"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:dropDownSelector="@color/white"
+            android:dropDownWidth="match_parent"
+            android:background="#00000000"
+            android:popupBackground="@color/app_blue"
+            android:theme="@style/SpinnerStyle"
+            android:entries="@array/SpinnerTime"/>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/faint_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="0.1dp"/>
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/colorAccent"-->
+<!--            android:paddingLeft="20dp"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:text="Biometrics"/>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:clickable="true"
+                android:id="@+id/finger_print_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="start|center"
+                    android:paddingLeft="20dp"
+                    android:text="Use Fingerprint ID"
+                    android:textAllCaps="false"
+                    android:textColor="@color/app_blue"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/roboto"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="50dp"
+                    android:text="Use fingerprint authentication to access the app"
+                    android:textColor="@color/app_text_grey" />
+            </LinearLayout>
+            <CheckBox
+
+                android:id="@+id/finger_print"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:clickable="false"
+                android:buttonTint="@color/app_blue"
+                android:paddingEnd="20dp"
+                android:paddingStart="0dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/faint_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="0.1dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

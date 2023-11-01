@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:theme="@style/Theme.MaterialComponents.Light"
+    tools:context="com.parallex.softtoken.Authentication.CreatePIN">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/app_blue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_1"
+
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pinIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/archivo_black"
+            android:padding="10dp"
+            android:text="@string/title_newPIN"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginBottom="20dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="10dp"
+
+
+            android:text="@string/new_pin"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:drawableStartCompat="@drawable/information" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/serial_num_label"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginHorizontal="10dp"
+            android:textColorHint="@color/black"
+            app:boxCornerRadiusBottomEnd="8sp"
+            app:boxCornerRadiusBottomStart="8sp"
+            app:boxCornerRadiusTopEnd="8sp"
+            app:boxCornerRadiusTopStart="8sp"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_text"
+                android:hint="@string/prompt_newPIN"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+<!--        <TextView-->
+
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:text="@string/new_pin"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="normal"-->
+<!--            app:drawableStartCompat="@drawable/information" />-->
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:textColorHint="@color/black"-->
+<!--            app:boxCornerRadiusBottomEnd="8sp"-->
+<!--            app:boxCornerRadiusBottomStart="8sp"-->
+<!--            app:boxCornerRadiusTopEnd="8sp"-->
+<!--            app:boxCornerRadiusTopStart="8sp"-->
+<!--            app:hintEnabled="false"-->
+<!--            app:passwordToggleEnabled="true">-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                android:id="@+id/new_pin"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/border_text"-->
+<!--                android:hint="@string/new_pin"-->
+<!--                android:inputType="numberPassword"-->
+<!--                android:maxLength="4"-->
+<!--                android:textSize="15sp" />-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/confirm_pin"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:drawableStartCompat="@drawable/information" />
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/black"
+            app:boxCornerRadiusBottomEnd="8sp"
+            app:boxCornerRadiusBottomStart="8sp"
+            app:boxCornerRadiusTopEnd="8sp"
+            app:boxCornerRadiusTopStart="8sp"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/confirm_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_text"
+                android:hint="@string/prompt_confirmPIN"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_border2"
+            android:text="VERIFY"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

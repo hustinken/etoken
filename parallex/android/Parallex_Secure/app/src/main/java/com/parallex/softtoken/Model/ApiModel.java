@@ -20,6 +20,8 @@ import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
+import javax.crypto.spec.GCMParameterSpec;
+import java.util.Base64;
 public class ApiModel {
 
     // private final String API_URL = "https://entrustselfservice.providusbank.com:8013/pmapi/api/";
@@ -332,22 +334,39 @@ public class ApiModel {
     }
 
 
-    public String decrypt(String encrypted) throws NoSuchAlgorithmException,
-            NoSuchPaddingException, InvalidKeyException,
-            InvalidAlgorithmParameterException, IllegalBlockSizeException,
-            BadPaddingException, UnsupportedEncodingException {
+//    public String decrypt(String encrypted) throws NoSuchAlgorithmException,
+//            NoSuchPaddingException, InvalidKeyException,
+//            InvalidAlgorithmParameterException, IllegalBlockSizeException,
+//            BadPaddingException, UnsupportedEncodingException {
+//
+//        SecretKeySpec skeySpec = new SecretKeySpec(SEC_KEY.getBytes(), "AES");
+//        IvParameterSpec ivSpec = new IvParameterSpec(IVString.getBytes());
+//
+//        Cipher ecipher = Cipher.getInstance("AES/CBC/PKCS7Padding");
+//        ecipher.init(Cipher.DECRYPT_MODE, skeySpec, ivSpec);
+//
+//        byte[] raw = decode(encrypted);
+//        byte[] originalBytes = ecipher.doFinal(raw);
+//        String original = new String(originalBytes, "UTF8");
+//        return original;
+//
+//    }
 
-        SecretKeySpec skeySpec = new SecretKeySpec(SEC_KEY.getBytes(), "AES");
-        IvParameterSpec ivSpec = new IvParameterSpec(IVString.getBytes());
+    public String decrypt(String encrypted) throws Exception {
+        SecretKeySpec skeySpec = new SecretKeySpec(SEC_KEY.getBytes("UTF-8"), "AES");
+        byte[] encryptedBytes = new byte[0];
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+            encryptedBytes = Base64.getDecoder().decode(encrypted);
+        }
 
-        Cipher ecipher = Cipher.getInstance("AES/CBC/PKCS7Padding");
-        ecipher.init(Cipher.DECRYPT_MODE, skeySpec, ivSpec);
+        Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
+        byte[] iv = new byte[12]; // You should have a 12-byte IV
 
-        byte[] raw = decode(encrypted);
-        byte[] originalBytes = ecipher.doFinal(raw);
-        String original = new String(originalBytes, "UTF8");
-        return original;
+        GCMParameterSpec spec = new GCMParameterSpec(128, iv);
+        cipher.init(Cipher.DECRYPT_MODE, skeySpec, spec);
 
+        byte[] decryptedBytes = cipher.doFinal(encryptedBytes);
+        return new String(decryptedBytes, "UTF-8");
     }
 
 

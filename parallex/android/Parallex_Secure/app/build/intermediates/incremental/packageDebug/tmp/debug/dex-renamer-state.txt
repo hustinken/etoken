@@ -1,4 +1,4 @@
-#Wed Nov 01 21:19:51 WAT 2023
+#Sun Nov 05 13:38:06 WAT 2023
 base.0=C\:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

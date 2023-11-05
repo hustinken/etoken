@@ -162,7 +162,7 @@ public class RegisterCustomer extends AppCompatActivity implements View.OnClickL
     private void processCorporateValidateApi(String response) {
         try {
             if (response.isEmpty()) {
-                dialog.setProgressLabel("Connection problem, Please check your internet", false, true);
+                dialog.setProgressLabel("Connection problem, Please check your internet 1", false, true);
                 return;
             }
 
@@ -184,7 +184,7 @@ public class RegisterCustomer extends AppCompatActivity implements View.OnClickL
             } else if (respDesc.toLowerCase().contains("false")) {
                 dialog.setProgressLabel("User does not exist on CBA, contact System Administrator", false, true);
             } else {
-                dialog.setProgressLabel("Connection problem, Please check your internet", false, true);
+                dialog.setProgressLabel("Connection problem, Please check your internet 2", false, true);
             }
         } catch (Exception e) {
             e.printStackTrace();

@@ -68,27 +68,48 @@ public class Net {
     }
 
 
+
+
+
     private static SSLSocketFactory getGlobalSSlFactory() {
         try {
-            TrustManager tm = new X509TrustManager() {
+            //    The main issue with this code / method is that it creates a custom X509TrustManager that doesn't perform
+//    any certificate validation and blindly trusts any certificate presented by the server.
+//    This is a significant security risk and should be avoided in production code.
+
+            ///////////////////////////////////////////////////////////////////
+
+
+//            TrustManager tm = new X509TrustManager() {
+//                public void checkClientTrusted(X509Certificate[] chain, String authType) throws CertificateException {
+//                    X509Certificate[] var3 = chain;
+//                    int var4 = chain.length;
+//
+//                    for(int var5 = 0; var5 < var4; ++var5) {
+//                        X509Certificate var10000 = var3[var5];
+//                    }
+//
+//                }
+//
+//                public void checkServerTrusted(X509Certificate[] chain, String authType) throws CertificateException {
+//                    X509Certificate[] var3 = chain;
+//                    int var4 = chain.length;
+//
+//                    for(int var5 = 0; var5 < var4; ++var5) {
+//                        X509Certificate var10000 = var3[var5];
+//                    }
+//
+//                }
+//
+//                public X509Certificate[] getAcceptedIssuers() {
+//                    return null;
+//                }
+//            };
+            TrustManager tm = new X509TrustManager()  {
                 public void checkClientTrusted(X509Certificate[] chain, String authType) throws CertificateException {
-                    X509Certificate[] var3 = chain;
-                    int var4 = chain.length;
-
-                    for(int var5 = 0; var5 < var4; ++var5) {
-                        X509Certificate var10000 = var3[var5];
-                    }
-
                 }
 
                 public void checkServerTrusted(X509Certificate[] chain, String authType) throws CertificateException {
-                    X509Certificate[] var3 = chain;
-                    int var4 = chain.length;
-
-                    for(int var5 = 0; var5 < var4; ++var5) {
-                        X509Certificate var10000 = var3[var5];
-                    }
-
                 }
 
                 public X509Certificate[] getAcceptedIssuers() {

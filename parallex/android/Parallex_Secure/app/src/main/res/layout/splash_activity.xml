@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/app_light_blue"
+    android:filterTouchesWhenObscured="true"
     tools:context="com.parallex.softtoken.WelcomeActivity.SplashActivity">
 
     <ImageView
@@ -110,6 +111,7 @@
         android:textColor="@color/white"
         android:textSize="14sp"
         app:strokeColor="@color/black"
+        android:filterTouchesWhenObscured="true"
         app:strokeWidth="2dp" />
 
 

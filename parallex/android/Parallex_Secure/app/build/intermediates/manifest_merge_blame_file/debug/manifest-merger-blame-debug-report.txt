@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="19"
 8-->C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="31" />
+9        android:targetSdkVersion="33" />
 9-->C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml
 10    <!--
 11 Required permission to be able to create and administer tokens in the Samsung
@@ -51,8 +51,8 @@
 31        android:testOnly="true"
 32        android:theme="@style/AppTheme"
 32-->C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:11:9-40
-33        android:usesCleartextTraffic="true" >
-33-->C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:12:9-44
+33        android:usesCleartextTraffic="false" >
+33-->C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:12:9-45
 34        <activity
 34-->C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:14:9-19:56
 35            android:name="com.parallex.softtoken.Authentication.ChangePin"

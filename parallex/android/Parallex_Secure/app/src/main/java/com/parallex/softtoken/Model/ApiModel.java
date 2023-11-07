@@ -334,40 +334,40 @@ public class ApiModel {
     }
 
 
-//    public String decrypt(String encrypted) throws NoSuchAlgorithmException,
-//            NoSuchPaddingException, InvalidKeyException,
-//            InvalidAlgorithmParameterException, IllegalBlockSizeException,
-//            BadPaddingException, UnsupportedEncodingException {
-//
-//        SecretKeySpec skeySpec = new SecretKeySpec(SEC_KEY.getBytes(), "AES");
-//        IvParameterSpec ivSpec = new IvParameterSpec(IVString.getBytes());
-//
-//        Cipher ecipher = Cipher.getInstance("AES/CBC/PKCS7Padding");
-//        ecipher.init(Cipher.DECRYPT_MODE, skeySpec, ivSpec);
-//
-//        byte[] raw = decode(encrypted);
-//        byte[] originalBytes = ecipher.doFinal(raw);
-//        String original = new String(originalBytes, "UTF8");
-//        return original;
-//
-//    }
+    public String decrypt(String encrypted) throws NoSuchAlgorithmException,
+            NoSuchPaddingException, InvalidKeyException,
+            InvalidAlgorithmParameterException, IllegalBlockSizeException,
+            BadPaddingException, UnsupportedEncodingException {
 
-    public String decrypt(String encrypted) throws Exception {
-        SecretKeySpec skeySpec = new SecretKeySpec(SEC_KEY.getBytes("UTF-8"), "AES");
-        byte[] encryptedBytes = new byte[0];
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-            encryptedBytes = Base64.getDecoder().decode(encrypted);
-        }
+        SecretKeySpec skeySpec = new SecretKeySpec(SEC_KEY.getBytes(), "AES");
+        IvParameterSpec ivSpec = new IvParameterSpec(IVString.getBytes());
 
-        Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
-        byte[] iv = new byte[12]; // You should have a 12-byte IV
+        Cipher ecipher = Cipher.getInstance("AES/CBC/PKCS7Padding");
+        ecipher.init(Cipher.DECRYPT_MODE, skeySpec, ivSpec);
 
-        GCMParameterSpec spec = new GCMParameterSpec(128, iv);
-        cipher.init(Cipher.DECRYPT_MODE, skeySpec, spec);
+        byte[] raw = decode(encrypted);
+        byte[] originalBytes = ecipher.doFinal(raw);
+        String original = new String(originalBytes, "UTF8");
+        return original;
 
-        byte[] decryptedBytes = cipher.doFinal(encryptedBytes);
-        return new String(decryptedBytes, "UTF-8");
     }
+
+//    public String decrypt(String encrypted) throws Exception {
+//        SecretKeySpec skeySpec = new SecretKeySpec(SEC_KEY.getBytes("UTF-8"), "AES");
+//        byte[] encryptedBytes = new byte[0];
+//        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+//            encryptedBytes = Base64.getDecoder().decode(encrypted);
+//        }
+//
+//        Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
+//        byte[] iv = new byte[12]; // You should have a 12-byte IV
+//
+//        GCMParameterSpec spec = new GCMParameterSpec(128, iv);
+//        cipher.init(Cipher.DECRYPT_MODE, skeySpec, spec);
+//
+//        byte[] decryptedBytes = cipher.doFinal(encryptedBytes);
+//        return new String(decryptedBytes, "UTF-8");
+//    }
 
 
     // Post response for data decryption

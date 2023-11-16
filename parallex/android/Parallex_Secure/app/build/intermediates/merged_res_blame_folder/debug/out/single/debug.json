@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
     },
     {
-        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_border_text.xml.flat",
-        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\border_text.xml"
-    },
-    {
         "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_serial_icon.xml.flat",
         "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\serial_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_border_text.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\border_text.xml"
     },
     {
         "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_app_icon_background.xml.flat",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\establish_pin.xml"
     },
     {
-        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_activation_code_icon.xml.flat",
-        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\activation_code_icon.xml"
-    },
-    {
         "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_app_icon_foreground.png.flat",
         "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\debug\\res\\mipmap-xxxhdpi\\app_icon_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_activation_code_icon.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\activation_code_icon.xml"
     },
     {
         "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_app_icon_round.png.flat",
@@ -152,12 +152,12 @@
         "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\font\\roboto_mono.xml"
     },
     {
-        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_background.xml.flat",
-        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\splash_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\layout_selection_menu.xml.flat",
         "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\layout\\selection_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_background.xml.flat",
+        "source": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\src\\main\\res\\drawable\\splash_background.xml"
     },
     {
         "merged": "C:\\Users\\Chulen\\AndroidStudioProjects\\etoken\\parallex\\android\\Parallex_Secure\\app\\build\\intermediates\\merged_res\\debug\\font_arbutus.xml.flat",

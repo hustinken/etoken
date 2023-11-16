@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:background="#CBD4DC"
     android:orientation="vertical"
+    android:filterTouchesWhenObscured="true"
     tools:context="com.parallex.softtoken.Activation.SecurityCode">
 
     <androidx.drawerlayout.widget.DrawerLayout
@@ -53,6 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginStart="50dp"
+                android:filterTouchesWhenObscured="true"
                 android:orientation="vertical">
 
                 <TextView

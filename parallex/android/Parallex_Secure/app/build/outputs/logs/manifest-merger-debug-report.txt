@@ -83,7 +83,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ch
 	android:theme
 		ADDED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:11:9-40
 	android:usesCleartextTraffic
-		ADDED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:12:9-44
+		ADDED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:12:9-45
 	android:name
 		ADDED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:7:9-71
 activity#com.parallex.softtoken.Authentication.ChangePin

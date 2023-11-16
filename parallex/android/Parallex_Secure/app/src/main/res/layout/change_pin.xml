@@ -64,7 +64,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/border_text"
                 android:hint="@string/new_pin"
-                android:inputType="numberPassword"
+                android:inputType="numberPassword|textNoSuggestions"
                 app:passwordToggleEnabled="true"
                 android:maxLength="4"
                 android:textSize="15sp" />
@@ -109,7 +109,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/border_text"
                     android:hint="@string/new_pin"
-                    android:inputType="numberPassword"
+                    android:inputType="numberPassword|textNoSuggestions"
                     app:passwordToggleEnabled="true"
                     android:maxLength="4"
                     android:textSize="15sp" />
@@ -148,7 +148,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/border_text"
                     android:hint="@string/confirm_pin"
-                    android:inputType="numberPassword"
+                    android:inputType="numberPassword|textNoSuggestions"
                     android:maxLength="4"
                     android:textSize="15sp" />
             </com.google.android.material.textfield.TextInputLayout>

@@ -89,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/border_text"
                 android:hint="@string/prompt_newPIN"
-                android:inputType="numberPassword|textNoSuggestions"
+                android:inputType="textWebPassword"
                 android:maxLength="4"
                 android:textSize="15sp" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -131,7 +131,7 @@
 
                 android:background="@drawable/border_text"
                 android:hint="@string/prompt_confirmPIN"
-                android:inputType="numberPassword|textNoSuggestions"
+                android:inputType="textWebPassword"
                 android:maxLength="4"
                 android:textSize="15sp" />
         </com.google.android.material.textfield.TextInputLayout>

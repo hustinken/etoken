@@ -4,7 +4,7 @@ ADDED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Paralle
 INJECTED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:2:1-156:12
 INJECTED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:2:1-156:12
 INJECTED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:2:1-156:12
-MERGED from [igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\1cced1ce748066aca14b22967ba9b9ec\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:2:1-16:12
+MERGED from [igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\6c9254f63b959478b4a30a2045564ab6\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:2:1-16:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Chulen\.gradle\caches\transforms-3\f6c1c56d068d68dcfbb90605b4deb6c3\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\Chulen\.gradle\caches\transforms-3\de6c39c439540752e54b020dae14c38a\transformed\navigation-ui-2.3.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Chulen\.gradle\caches\transforms-3\caffe47efdc57142f9b3abd195dc7aee\transformed\material-1.2.1\AndroidManifest.xml:17:1-24:12
@@ -58,8 +58,8 @@ INJECTED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Para
 		ADDED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:6:5-143:19
-MERGED from [igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\1cced1ce748066aca14b22967ba9b9ec\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:11:5-14:19
-MERGED from [igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\1cced1ce748066aca14b22967ba9b9ec\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:11:5-14:19
+MERGED from [igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\6c9254f63b959478b4a30a2045564ab6\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:11:5-14:19
+MERGED from [igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\6c9254f63b959478b4a30a2045564ab6\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:11:5-14:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Chulen\.gradle\caches\transforms-3\f6c1c56d068d68dcfbb90605b4deb6c3\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Chulen\.gradle\caches\transforms-3\f6c1c56d068d68dcfbb90605b4deb6c3\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Chulen\.gradle\caches\transforms-3\caffe47efdc57142f9b3abd195dc7aee\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
@@ -75,7 +75,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ch
 	android:roundIcon
 		ADDED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:10:9-51
 	android:allowBackup
-		ADDED from [igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\1cced1ce748066aca14b22967ba9b9ec\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:12:9-36
+		ADDED from [igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\6c9254f63b959478b4a30a2045564ab6\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:12:9-36
 	tools:targetApi
 		ADDED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:13:9-28
 	android:icon
@@ -360,8 +360,8 @@ uses-sdk
 INJECTED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml
-MERGED from [igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\1cced1ce748066aca14b22967ba9b9ec\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:7:5-9:41
-MERGED from [igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\1cced1ce748066aca14b22967ba9b9ec\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:7:5-9:41
+MERGED from [igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\6c9254f63b959478b4a30a2045564ab6\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:7:5-9:41
+MERGED from [igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\6c9254f63b959478b4a30a2045564ab6\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Chulen\.gradle\caches\transforms-3\f6c1c56d068d68dcfbb90605b4deb6c3\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Chulen\.gradle\caches\transforms-3\f6c1c56d068d68dcfbb90605b4deb6c3\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\Chulen\.gradle\caches\transforms-3\de6c39c439540752e54b020dae14c38a\transformed\navigation-ui-2.3.3\AndroidManifest.xml:20:5-22:41

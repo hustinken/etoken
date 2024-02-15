@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.entrust.identityGuard.mobile.sdk.parallex"
-4    android:versionCode="2"
-5    android:versionName="2.0" >
+4    android:versionCode="4"
+5    android:versionName="3.1" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
@@ -38,7 +38,7 @@
 24        android:name="com.parallex.softtoken.Others.SampleApplication"
 24-->C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\src\main\AndroidManifest.xml:7:9-71
 25        android:allowBackup="false"
-25-->[igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\1cced1ce748066aca14b22967ba9b9ec\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:12:9-36
+25-->[igmobile-sdk-android-3.5.4.aar] C:\Users\Chulen\.gradle\caches\transforms-3\6c9254f63b959478b4a30a2045564ab6\transformed\jetified-igmobile-sdk-android-3.5.4\AndroidManifest.xml:12:9-36
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 26-->[androidx.core:core:1.3.1] C:\Users\Chulen\.gradle\caches\transforms-3\ae8f0200e48d9152652379f8db5c23e1\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
 27        android:icon="@mipmap/app_icon"

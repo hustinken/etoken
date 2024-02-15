@@ -1,9 +1,9 @@
 <libraries>
   <library
       name="__local_aars__:C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\libs\igmobile-sdk-android-3.5.4.aar:unspecified@jar"
-      jars="C:\Users\Chulen\.gradle\caches\transforms-3\1cced1ce748066aca14b22967ba9b9ec\transformed\jetified-igmobile-sdk-android-3.5.4\jars\classes.jar"
+      jars="C:\Users\Chulen\.gradle\caches\transforms-3\6c9254f63b959478b4a30a2045564ab6\transformed\jetified-igmobile-sdk-android-3.5.4\jars\classes.jar"
       resolved="__local_aars__:C:\Users\Chulen\AndroidStudioProjects\etoken\parallex\android\Parallex_Secure\app\libs\igmobile-sdk-android-3.5.4.aar:unspecified"
-      folder="C:\Users\Chulen\.gradle\caches\transforms-3\1cced1ce748066aca14b22967ba9b9ec\transformed\jetified-igmobile-sdk-android-3.5.4"
+      folder="C:\Users\Chulen\.gradle\caches\transforms-3\6c9254f63b959478b4a30a2045564ab6\transformed\jetified-igmobile-sdk-android-3.5.4"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

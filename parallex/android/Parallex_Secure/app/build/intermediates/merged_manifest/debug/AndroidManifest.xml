@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="31" />
+        android:targetSdkVersion="33" />
     <!--
  Required permission to be able to create and administer tokens in the Samsung
      KNOX Trusted Execution  Environment.
@@ -28,9 +28,8 @@
         android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/app_icon_round"
-        android:testOnly="true"
         android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true" >
+        android:usesCleartextTraffic="false" >
         <activity
             android:name="com.parallex.softtoken.Authentication.ChangePin"
             android:exported="true"

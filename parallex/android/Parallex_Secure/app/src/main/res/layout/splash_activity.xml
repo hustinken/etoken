@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/app_light_blue"
+    android:filterTouchesWhenObscured="true"
     tools:context="com.parallex.softtoken.WelcomeActivity.SplashActivity">
 
     <ImageView
@@ -38,7 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="30dp"
-            android:gravity="right">
+            android:gravity="right"
+            android:orientation="horizontal">
 
             <!--TextView
                 android:layout_width="wrap_content"
@@ -78,8 +80,10 @@
         android:text="@string/app_name"
         android:textColor="@color/white"
         android:textSize="20sp" />
+
+    <!--        added 5 to the id below. a duplicate id was used for both text view-->
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView5"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:layout_centerHorizontal="true"
@@ -110,6 +114,7 @@
         android:textColor="@color/white"
         android:textSize="14sp"
         app:strokeColor="@color/black"
+        android:filterTouchesWhenObscured="true"
         app:strokeWidth="2dp" />
 
 

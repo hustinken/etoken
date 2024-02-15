@@ -20,11 +20,13 @@ import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
+import javax.crypto.spec.GCMParameterSpec;
+import java.util.Base64;
 public class ApiModel {
 
     // private final String API_URL = "https://entrustselfservice.providusbank.com:8013/pmapi/api/";
-//    private String API_URL = "https://etoken.parallexbank.com:443/pamapi/api/";
-    private String API_URL = "https://uatetoken.parallexbank.com/pamapi/api/";
+    private String API_URL = "https://etoken.parallexbank.com:443/pamapi/api/";
+//    private String API_URL = "https://uatetoken.parallexbank.com/pamapi/api/";
 //    private String API_URL = "http://102.129.39.87/pamapi/api/";
     // public final String API_URL = " http://102.129.39.41/pmapi/api/";
 
@@ -349,6 +351,23 @@ public class ApiModel {
         return original;
 
     }
+
+//    public String decrypt(String encrypted) throws Exception {
+//        SecretKeySpec skeySpec = new SecretKeySpec(SEC_KEY.getBytes("UTF-8"), "AES");
+//        byte[] encryptedBytes = new byte[0];
+//        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+//            encryptedBytes = Base64.getDecoder().decode(encrypted);
+//        }
+//
+//        Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
+//        byte[] iv = new byte[12]; // You should have a 12-byte IV
+//
+//        GCMParameterSpec spec = new GCMParameterSpec(128, iv);
+//        cipher.init(Cipher.DECRYPT_MODE, skeySpec, spec);
+//
+//        byte[] decryptedBytes = cipher.doFinal(encryptedBytes);
+//        return new String(decryptedBytes, "UTF-8");
+//    }
 
 
     // Post response for data decryption
